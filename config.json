@@ -1,0 +1,24 @@
+{
+   "scripts":{
+      "sms":{
+         "enabled": true,
+         "sender_extension": "TKN",
+         "message":[
+            "Jangan Lupa 14 Februari 2024, Pemilu Jujur dan Adil Untuk Indonesia Maju"
+         ]
+      },
+      "ussd":{
+         "enabled": false,
+         "ussd_type": 1,
+         "message":[
+            "Jangan Lupa !!",
+            "Pemilu Jangan Pilih Saya, Karena Saya Tidak Nyaleg, Hormat Saya Mr.R"
+         ]
+      },
+      "call":{
+         "enabled": false,
+         "caller_extension": "DragonOS",
+         "voice-file": "tt-monkeys"
+      }
+   }
+}

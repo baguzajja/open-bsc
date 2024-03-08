@@ -1,0 +1,11 @@
+[Unit]
+Description=Osmo SIP Connector
+
+[Service]
+Type=simple
+Restart=always
+ExecStart=osmo-sip-connector -c /etc/osmocom2/osmo-sip-connector.cfg
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target
